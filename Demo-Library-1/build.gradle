@@ -50,7 +50,7 @@ publishing {
     publications {
         maven(MavenPublication){
             groupId = "com.github.karimwahdan"
-            artifactId = "demo-1"
+            artifactId = "demo-test"
             version = "1.0"
             pom {
                 description = "First Library"
