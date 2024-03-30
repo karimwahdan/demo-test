@@ -4,4 +4,4 @@ before_install:
   - ./scripts/prepareJitpackEnvironment.sh
 install:
   - File="-Dfile=Demo-Library-1-release.aar"
-  - mvn install:install-file $FILE -DgroupId=com.github.karimwahdan -DartifactId=Demo-Library-1 -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+  - mvn install:install-file $FILE -DgroupId=com.github.karimwahdan -DartifactId=demo-test -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
